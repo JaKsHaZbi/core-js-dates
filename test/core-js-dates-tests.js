@@ -492,9 +492,9 @@ describe('core-js-dates', () => {
   it.optional(
     'isLeapYear should return whether the year in the passed date is a leap year',
     () => {
-      // assert.equal(
-      //   tasks.isLeapYear(new Date(2024, 2, 1), true, '2024 is a leap year')
-      // );
+      assert.equal(
+        tasks.isLeapYear(new Date(2024, 2, 1), true, '2024 is a leap year')
+      );
       assert.equal(
         tasks.isLeapYear(new Date(2022, 2, 1), false, '2022 is not a leap year')
       );
